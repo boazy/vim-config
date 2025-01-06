@@ -6,5 +6,5 @@
 /.stversions
 /lua/config/
 /lua/lsp/
-/lua/plugins/
+/lua/plugins
 /lua/plugins.lua
