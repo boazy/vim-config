@@ -3,4 +3,7 @@
 --
 -- since 2014.
 
+-- Disable warning until upstream fix
+vim.g.lazyvim_check_order = false
+
 require('rafi.config.lazy')
