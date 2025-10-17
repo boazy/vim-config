@@ -60,7 +60,7 @@ return {
 			if not has_git then
 				require('nvim-treesitter.install').ensure_installed = function() end
 			end
-			require('nvim-treesitter.configs').setup(opts)
+			require('nvim-treesitter').setup(opts)
 		end,
 		---@type TSConfig
 		---@diagnostic disable: missing-fields
